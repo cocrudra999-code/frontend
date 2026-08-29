@@ -50,7 +50,7 @@ function App() {
       if (response.success) {
         setResults(response.data);
       } else {
-        setError(response.error || 'Something went wrong.');
+        setError(response.error || 'Something went wrong!');
       }
     } catch (err) {
       const message =
